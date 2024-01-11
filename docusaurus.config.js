@@ -9,7 +9,7 @@ module.exports = {
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'Delivery Manager', // Usually your GitHub org/user name.
+  organizationName: 'Delivery-Manager', // Usually your GitHub org/user name.
   projectName: 'knowledgebase', // Usually your repo name.
   trailingSlash: false,
   markdown: {
