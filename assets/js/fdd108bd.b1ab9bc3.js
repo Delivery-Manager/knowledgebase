@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdm_knowledgebase=self.webpackChunkdm_knowledgebase||[]).push([[3311],{9399:e=>{e.exports=JSON.parse('{"permalink":"/knowledgebase/blog/tags/release","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
