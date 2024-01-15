@@ -4,8 +4,8 @@ const katex = require('rehype-katex');
 module.exports = {
   title: 'Деливери менеджер',
   tagline: 'Кто это, задачи, обязанности, как им стать, карта развития',
-  url: 'https://delivery-manager.github.io',
-  baseUrl: '/knowledgebase/',
+  url: 'https://deliverymanager.ru',
+  baseUrl: '/',
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
