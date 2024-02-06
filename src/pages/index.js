@@ -13,7 +13,7 @@ import READING_POSTER_URL from "@site/static/img/reading.png"
 import AboutProcessArrow from "@site/static/img/about-process-arrow.svg"
 import AboutProcessArrow2 from "@site/static/img/about-process-arrow-2.svg"
 import BlogThereIcon from "@site/static/img/blog-there.svg"
-import BlinkingSwitchboard from "../components/BlinkingSwitchboard";
+// import BlinkingSwitchboard from "../components/BlinkingSwitchboard";
 
 import s from './index.module.css';
 
@@ -200,7 +200,7 @@ export default function Home() {
                             <div className={clsx(s.aboutWorkProcessCardSpecificWrapper, s.professionDescription)}>
                                 <a href="" className={s.aboutWorkProcessCardSpecificLink}>
                                     <header className={s.aboutWorkProcessCardSpecific}>
-                                        <BlinkingSwitchboard/>
+                                        {/*<BlinkingSwitchboard/>*/}
                                     </header>
                                     <div className={s.aboutWorkProcessCardSpecificContent}>
                                         <span
@@ -261,29 +261,7 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-
-                <section>
-                    <div className={s.wrapper}>
-
-                    </div>
-                </section>
-
-                <section>
-                    <div className={s.wrapper}>
-                        <h2>FAQs</h2>
-                    </div>
-                </section>
             </main>
-
-            <footer>
-                <div>
-
-                </div>
-            </footer>
         </Layout>
-
-        /*<>
-
-        </>*/
     );
 }
