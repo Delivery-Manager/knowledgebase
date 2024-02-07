@@ -16,6 +16,7 @@ import BlogThereIcon from "@site/static/img/blog-there.svg"
 // import BlinkingSwitchboard from "../components/BlinkingSwitchboard";
 
 import s from './index.module.css';
+import BlinkingSwitchboard from '../components/BlinkingSwitchboard'
 
 export function useMediaQuery(query) {
     const getMatches = (query) => {
@@ -200,7 +201,7 @@ export default function Home() {
                             <div className={clsx(s.aboutWorkProcessCardSpecificWrapper, s.professionDescription)}>
                                 <a href="" className={s.aboutWorkProcessCardSpecificLink}>
                                     <header className={s.aboutWorkProcessCardSpecific}>
-                                        {/*<BlinkingSwitchboard/>*/}
+                                        <BlinkingSwitchboard/>
                                     </header>
                                     <div className={s.aboutWorkProcessCardSpecificContent}>
                                         <span
