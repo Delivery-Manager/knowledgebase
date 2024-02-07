@@ -1,0 +1,49 @@
+.switchboard {
+  padding: 1.5rem;
+}
+
+.light {
+  width: 1px;
+  height: 1px;
+  border-radius: 9999px;
+  position: relative;
+  transition: transform var(--transition-duration) ease;
+
+  &:after,
+  &:before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    transition: opacity var(--transition-duration) ease;
+  }
+
+  &:before {
+    /* Medium */
+    background: #3291FF;
+    box-shadow: 0px 0px 2px 1px rgba(50, 145, 255, 0.25);
+  }
+
+  &:after {
+    /* High */
+    background: #FFFFFF;
+    box-shadow:
+      0px 0px 1px 1px rgba(50, 145, 255, 0.8),
+      0px 0px 2px 1px rgba(50, 145, 255, 0.25);
+  }
+
+  &[data-state='off'] {
+    background: #707070;
+  }
+
+  &[data-state='medium']:before {
+    opacity: 1;
+  }
+
+  &[data-state='high']:after {
+    opacity: 1;
+  }
+}
