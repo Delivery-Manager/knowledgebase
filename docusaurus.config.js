@@ -11,13 +11,23 @@ module.exports = {
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'Delivery-Manager', // Usually your GitHub org/user name.
-  projectName: 'knowledgebase', // Usually your repo name.
+  organizationName: 'Delivery-Manager',
+  projectName: 'knowledgebase',
   trailingSlash: false,
   markdown: {
     mermaid: true,
   },
-  themes: ['@docusaurus/theme-mermaid', '@easyops-cn/docusaurus-search-local'],
+  themes: [
+    '@docusaurus/theme-mermaid',
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        language: ["en", "ru"],
+      }),
+    ],
+  ],
   themeConfig: {
     mermaid: {
       theme: { light: 'base', dark: 'dark' },
