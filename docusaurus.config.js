@@ -1,4 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 const math = require('remark-math');
 const katex = require('rehype-katex');
 module.exports = {
@@ -15,7 +17,7 @@ module.exports = {
   markdown: {
     mermaid: true,
   },
-  themes: ['@docusaurus/theme-mermaid'],
+  themes: ['@docusaurus/theme-mermaid', '@easyops-cn/docusaurus-search-local'],
   themeConfig: {
     mermaid: {
       theme: { light: 'base', dark: 'dark' },
@@ -98,12 +100,5 @@ module.exports = {
     integrity: 'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
     crossorigin: 'anonymous',
   }, ],
-  plugins: [
-    [
-      require.resolve('docusaurus-lunr-search'),
-      {
-        languages: ['ru', 'en'],
-      },
-    ],
-  ],
+  plugins: [],
 };
