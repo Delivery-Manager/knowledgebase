@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdm_knowledgebase=self.webpackChunkdm_knowledgebase||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Version 2.0","permalink":"/blog/2023/07/31/version-2","unlisted":false},{"title":"Version 1.0","permalink":"/blog/2023/03/31/version-1","unlisted":false}]}')}}]);
