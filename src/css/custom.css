@@ -199,6 +199,11 @@ html[data-theme='dark'] .button.button--secondary {
   white-space: nowrap;
 }
 
+.right {
+    width: auto;
+    float: right;
+}
+
 .imgiconpng {
   top: 5px;
   position: relative;
@@ -216,7 +221,7 @@ text > a {
 }
 
 .content-box {
-    columns: 2 auto;
+    columns: auto 40em;
 }
 
 .excalidraw {
