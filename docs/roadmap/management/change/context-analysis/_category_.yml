@@ -2,3 +2,5 @@ label: 'Анализ/изучение контекста'
 position: 1
 collapsible: false
 className: disabled-category
+link:
+  type: generated-index

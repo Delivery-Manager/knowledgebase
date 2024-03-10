@@ -204,6 +204,14 @@ html[data-theme='dark'] .button.button--secondary {
     float: right;
 }
 
+.DocCardList--no-description .card h2 {
+    margin-bottom: 0;
+}
+
+.DocCardList--no-description .card p {
+    display: none;
+}
+
 .imgiconpng {
   top: 5px;
   position: relative;
