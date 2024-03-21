@@ -37,8 +37,8 @@ toc_max_heading_level: 5
 
 :black_joker: [Комплект фасилитационных карт по управлению изменениями.](https://l.tinkoff.ru/yad_dm) 
 За основу взят набор [Change Management Game](https://management30.com/practice/change-management-game/) из Management 3.0
-Женя Адамов и Женя Степченко перевели карты на русский язык и дополнили набор, на основе своего опыта и практик Prosci:registered: и Six Source of Influence.
-Можно использовать при планировании изменений, ретроспективе.
+Евгений Адамов и Евгений Степченко перевели карты на русский язык и дополнили набор, на основе своего опыта, практик Prosci:registered: и Six Source of Influence.
+Набор можно использовать как фасилитационный инструмент при планировании изменений, ретроспективе.
 
 ##### ADKAR
 :movie_camera: [Пять этапов для успешных изменений ADKAR](https://youtu.be/Jd-vYeL3Kb4) (Римма Денисовец)
