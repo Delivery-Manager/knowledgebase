@@ -14,9 +14,9 @@ import styles from './assets/monte-carlo-method.module.css';
 
 <div class="right">
 
-| Автор            |    Дата    |
-|------------------|:----------:|
-| Павел Ахметчанов | 20.12.2023 |
+| Автор                                                        | Опубликовано |
+| ------------------------------------------------------------ | :----------: |
+| Павел Ахметчанов [©controlchart](https://t.me/controlcharts) |  20.12.2023  |
 
 </div>
 
@@ -65,7 +65,7 @@ import styles from './assets/monte-carlo-method.module.css';
 Каждое число в этом наборе — это количество задач завершенных за одну неделю. Общее количество данных мы взяли за
 последние 26 неделю.
 
-<img src={MonteCarloThroughput} width="600px" alt="Chart Throughput" />;
+<img src={MonteCarloThroughput} width="600px" alt="Chart Throughput" />
 
 ### Алгоритм метода
 
@@ -84,13 +84,13 @@ import styles from './assets/monte-carlo-method.module.css';
 Считаем что в первую неделю работы над проектом сервис выполнит 3 задачи. И от 40 исходных задач проекта отнимаем это же
 количество, получим 37.
 
-<img src={MonteCarloBurndownChart} width="300px" alt="Burn Cahrt of Project" />;
+<img src={MonteCarloBurndownChart} width="300px" alt="Burn Cahrt of Project" />
 
 #### Шаг третий
 
 Повторяем первый шаг и второй до тех пор, пока в исходном наборе 40 задач проекта не останется их совсем. Так мы получим вероятное количество недель, за которое будет выполнен проект, запоминаем это количество недель. Добавив этот отрезок времени к планируемой дате начала проекта, можем получить дату завершения.
 
-<img src={MonteCarloBurndownChartFull} width="300px" alt="Burn Cahrt of Project" />;
+<img src={MonteCarloBurndownChartFull} width="300px" alt="Burn Cahrt of Project" />
 
 На примере просчета первого эксперимента (на картинке), проект завершится за 17 недель. Запоминаем этот срок.
 
@@ -99,7 +99,7 @@ import styles from './assets/monte-carlo-method.module.css';
 Алгоритм шагов от первого до третьего повторяем от 10000. После каждого расчета сроков, мы получим число недель за
 которое может закрыться проект. Собираем эти сроки и считаем сколько раз проект закрылся за этот срок.
 
-<img src={MonteCarloAllExperiments} width="400px" alt="All Experiments" />;
+<img src={MonteCarloAllExperiments} width="400px" alt="All Experiments" />
 
 Так получаем распределение данных показывающих за какое количество недель может быть выполнен проект, и какое количество
 исходов получилось при моделировании в одно и тоже количество недель.
@@ -156,7 +156,7 @@ $$
 
 Если отобразить этот результат на графике, то получим следующее
 
-<img src={MonteCarloResultProbably} width="600px" alt="График вероятности завершения" />;
+<img src={MonteCarloResultProbably} width="600px" alt="График вероятности завершения" />
 
 В данном случае можно взять в качестве сроков выполнения проекта **16 неделю**, где вероятность завершения проекта
 равна `0.9648`,
@@ -165,7 +165,7 @@ $$
 ### Алгоритм метода на JavaScript
 
 <details>
-  <summary>Вот пример кода на JavaScript для этой простой модуляции.</summary>
+  <summary>Вот пример кода на JavaScript для этой простой модуляции</summary>
   <div>
 
 ```javascript
@@ -238,7 +238,7 @@ function MonteCarloForProject(
 Код написан так, чтобы можно было его запустить в браузере.
 
 <details>
-  <summary>Пример вывода результата программы:</summary>
+  <summary>Пример вывода результата программы</summary>
   <div>
 
 ```
@@ -287,7 +287,7 @@ function MonteCarloForProject(
 Нам нужно определить заранее предполагаемую вероятность наступления риска, и предположить сколько задач он может
 добавить или убрать какое-то количество.
 
-<img src={MonteCarloWithRisk} width="600px" alt="Добавление задач к проекту при возникновении риска" />;
+<img src={MonteCarloWithRisk} width="600px" alt="Добавление задач к проекту при возникновении риска" />
 
 ### Алгоритм метода на JavaScript с учетом рисков
 
@@ -410,7 +410,7 @@ function getRandomBetween(min, max) {
 Код написан так, чтобы можно было его запустить в браузере.
 
 <details>
-  <summary>Пример вывода результата программы:</summary>
+  <summary>Пример вывода результата программы</summary>
   <div>
 
 ```
@@ -480,5 +480,3 @@ function getRandomBetween(min, max) {
 
 ![S-Curve](./assets/Monte-Carlo-S-Curve.png)
 :::
-
-[© controlchart](https://t.me/controlcharts)
