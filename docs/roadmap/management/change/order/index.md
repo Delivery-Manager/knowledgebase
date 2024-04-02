@@ -1,13 +1,12 @@
 # Последовательность
 Для определения последовательности изменений можно использовать различные модели. Далее расскажем, как выбрать подходящую, а на странице каждой из этих моделей раскрываем наши советы по их реализации.
 
-```mermaid
-graph LR
-%%{ init: { 'flowchart': { 'nodeSpacing': 10, 'rankSpacing': 200 }}}%%
-    A[Последовательность] --- B1(8 шагов Коттера) & B2(ADKAR) & B3(Цикл Деминга PDCA) & B4(Модель Льюина) & B5(Революционная модель)
-click B1 href "order/kotter-8-steps" "Последовательность"
-classDef label-link text-decoration: underline;
-class B1 label-link
+## Инструменты
+
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList className="DocCardList--no-description" />
 ```
 
 ## Как выбрать

@@ -202,6 +202,11 @@ html[data-theme='dark'] .button.button--secondary {
 .right {
     width: auto;
     float: right;
+    margin:0 0 10px 10px;
+}
+
+@media only screen and (max-width: 450px) {
+    .right {float:none;}
 }
 
 .DocCardList--no-description .card h2 {

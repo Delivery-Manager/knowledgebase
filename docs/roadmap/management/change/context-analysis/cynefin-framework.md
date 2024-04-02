@@ -1,5 +1,5 @@
 ---
 sidebar_class_name: disabled-page
-unlisted: true
+draft: true
 ---
 # Модель «Кеневин»
