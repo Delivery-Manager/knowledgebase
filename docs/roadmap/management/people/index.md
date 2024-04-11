@@ -1,13 +1,14 @@
 # Управление людьми
 
-```mermaid
-graph LR
-%%{ init: { 'flowchart': { 'nodeSpacing': 10, 'rankSpacing': 200 }}}%%
-    A[Управление людьми] --- B1(Анализ ролей) & B2(Коучинг) & B3(Менторинг)
-```
-## О чём это направление
+## Из чего состоит
 
-## Почему важно работать с этим направлением
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList className="DocCardList--no-description" />
+```
+
+## Какие могут быть проблемы
 
 ## Дополнительные материалы
 * [Книги, видео, подкасты](/docs/profession/good-to-know)

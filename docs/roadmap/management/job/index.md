@@ -1,14 +1,14 @@
 # Управление работой
 
-```mermaid
-graph LR
-%%{ init: { 'flowchart': { 'nodeSpacing': 10, 'rankSpacing': 200 }}}%%
-    A[Управление работой] --- B1(Задачами) & B2(Проектирование систем) & B3(Фреймворки/подходы)
+## Из чего состоит
+
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList className="DocCardList--no-description" />
 ```
 
-## О чём это направление
-
-## Почему важно работать с этим направлением
+## Какие могут быть проблемы
 
 ## Дополнительные материалы
 * [Книги, видео, подкасты](/docs/profession/good-to-know#управление-работой)

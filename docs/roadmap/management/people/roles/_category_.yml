@@ -1,4 +1,5 @@
 label: Роли
 position: 1
 collapsible: false
-className: disabled-category
+link:
+  type: generated-index

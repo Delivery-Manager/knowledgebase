@@ -1,5 +1,6 @@
 # Управление окружением
 
+## Из чего состоит
 ```mermaid
 graph LR
 %%{ init: { 'flowchart': { 'nodeSpacing': 10, 'rankSpacing': 200 }}}%%
