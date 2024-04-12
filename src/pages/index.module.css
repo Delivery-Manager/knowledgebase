@@ -96,7 +96,7 @@
 
 .aboutDeliveryManagers {
   display: flex;
-  /*flex-direction: column;*/
+  flex-direction: column;
   gap: 2rem;
   padding-top: 2rem;
 }
@@ -358,5 +358,9 @@
   .aboutWorkProcessMore {
     grid-template-rows: 50px 1fr;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .aboutDeliveryManagers {
+    flex-direction: row;
   }
 }

@@ -29,14 +29,18 @@ export default function BlogHere() {
       </div>
       <div className={s.blogHere}>
         <div className={s.blogHere_container}>
-          <p className={s.blogHere__article}>
-            Мы ведём свой блог, где публикуем что изменилось в профессии,
-            анонсируем конференции и просто делимся мыслями
-          </p>
           <div className={s.content}>
             <StartIcon className={s.content__starIcon} />
-            <BlogThereIcon className={s.content__icon} />
-            <ArrowIcon className={s.content__arrowIcon} />
+            <div>
+              <p className={s.blogHere__article}>
+                Мы ведём свой блог, где публикуем что изменилось в профессии,
+                анонсируем конференции и просто делимся мыслями
+              </p>
+              <div className={s.blogHere__link}>
+                <BlogThereIcon className={s.content__icon} />
+                <ArrowIcon className={s.content__arrowIcon} />
+              </div>
+            </div>
           </div>
         </div>
       </div>
