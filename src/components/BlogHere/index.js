@@ -10,7 +10,7 @@ import s from './styles.module.css'
 
 export default function BlogHere() {
   return (
-    <div className={s.blogHereContainer}>
+    <div className={s.container}>
       <div>
       <div className={s.pics}>
         <picture>

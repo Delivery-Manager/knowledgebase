@@ -1,4 +1,4 @@
-.blogHereContainer{
+.container{
     background-color: #FFD31B;
     overflow-y: clip;
 }
@@ -9,7 +9,6 @@
     align-items: center;
     padding-right: 1rem;
     background-color: #FFD31B;
-    overflow-y: clip;
 }
 
 .blogHere_container {
