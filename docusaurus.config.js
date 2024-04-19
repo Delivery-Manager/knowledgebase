@@ -29,6 +29,10 @@ module.exports = {
     ],
   ],
   themeConfig: {
+    metadata: [
+      // TODO: потом убрать
+      { name: 'robots', content: 'noindex'},
+    ],
     mermaid: {
       theme: { light: 'base', dark: 'dark' },
       options: {
