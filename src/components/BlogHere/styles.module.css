@@ -1,4 +1,4 @@
-.container{
+.blogHereContainer{
     background-color: #FFD31B;
     overflow-y: clip;
 }
@@ -7,8 +7,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 1rem;
+    padding-right: 1rem;
     background-color: #FFD31B;
+    overflow-y: clip;
 }
 
 .blogHere_container {
