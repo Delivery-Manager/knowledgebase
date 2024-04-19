@@ -6,13 +6,14 @@ const katex = require('rehype-katex');
 module.exports = {
   title: 'Деливери менеджер',
   tagline: 'Кто это, задачи, обязанности, как им стать, карта развития',
-  url: 'https://deliverymanager.ru',
-  baseUrl: '/',
+  url: 'https://github.com',
+  baseUrl: '/redesign/',
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
   organizationName: 'Delivery-Manager',
   projectName: 'knowledgebase',
+  deploymentBranch: 'gh-pages',
   trailingSlash: false,
   markdown: {
     mermaid: true,
