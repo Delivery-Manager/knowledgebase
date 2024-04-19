@@ -13,7 +13,6 @@ module.exports = {
   favicon: 'img/favicon.png',
   organizationName: 'Delivery-Manager',
   projectName: 'knowledgebase',
-  deploymentBranch: 'gh-pages',
   trailingSlash: false,
   markdown: {
     mermaid: true,
