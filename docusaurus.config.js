@@ -162,7 +162,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/MRCUCUMBER1234/knowledgebase/tree/feature/redesign',
+          editUrl: 'https://github.com/delivery-manager/knowledgebase/edit/main/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
           showLastUpdateAuthor: true,
