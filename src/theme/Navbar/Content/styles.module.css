@@ -1,0 +1,16 @@
+/*
+Hide color mode toggle in small viewports
+ */
+@media (max-width: 996px) {
+  .colorModeToggle {
+    display: none;
+  }
+}
+
+.navbarLink > a {
+  /*border: 1px solid black;*/
+  /*border-radius: 24px;*/
+  /*margin-right: 2rem;*/
+  /*padding: 8px 20px 8px 20px;*/
+  /*font-weight: normal;*/
+}
