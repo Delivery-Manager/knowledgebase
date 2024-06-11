@@ -7,7 +7,7 @@ module.exports = {
   title: 'Деливери менеджер',
   tagline: 'Кто это, задачи, обязанности, как им стать, карта развития',
   url: 'https://github.com',
-  baseUrl: '/knowledgebase/',
+  baseUrl: '/',
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',

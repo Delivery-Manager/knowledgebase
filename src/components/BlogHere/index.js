@@ -36,10 +36,10 @@ export default function BlogHere() {
                 Мы ведём свой блог, где публикуем что изменилось в профессии,
                 анонсируем конференции и просто делимся мыслями
               </p>
-              <div className={s.blogHere__link}>
+              <a className={s.blogHere__link} href="/blog">
                 <BlogThereIcon className={s.content__icon} />
                 <ArrowIcon className={s.content__arrowIcon} />
-              </div>
+              </a>
             </div>
           </div>
         </div>
