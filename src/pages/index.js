@@ -8,8 +8,8 @@ import AboutDeliverManagerIcon from "@site/static/img/about-delivery-manager-1.s
 import AboutDeliverManager2Icon from "@site/static/img/about-delivery-manager-1-2.svg"
 import POSTER1_URL from "@site/static/img/poster1.jpg"
 import POSTER1_2_URL from "@site/static/img/poster1-2.jpg"
-import ONBOARDING_POSTER_URL from "@site/static/img/onboarding.png"
-import READING_POSTER_URL from "@site/static/img/reading.png"
+import ONBOARDING_POSTER_URL from "@site/static/img/roadmap.png"
+import READING_POSTER_URL from "@site/static/img/useful.png"
 import AboutProcessArrow from "@site/static/img/about-process-arrow.svg"
 import AboutProcessArrow2 from "@site/static/img/about-process-arrow-2.svg"
 // import BlinkingSwitchboard from "../components/BlinkingSwitchboard";
@@ -195,7 +195,7 @@ export default function Home() {
                             </div>
 
                             <div className={clsx(s.aboutWorkProcessCardSpecificWrapper, s.professionDescription)}>
-                                <a href="" className={s.aboutWorkProcessCardSpecificLink}>
+                                <a href="/docs/profession/about" className={s.aboutWorkProcessCardSpecificLink}>
                                     <header className={s.aboutWorkProcessCardSpecific}>
                                         <BlinkingSwitchboard />
                                     </header>
@@ -223,11 +223,11 @@ export default function Home() {
                                 <h2 className={s.aboutWorkProcessMore__contentTitle}>Онбординг и развитие в профессии</h2>
                                 <p>Какими навыками и инструментарием должен владеть Деливери менеджер?</p>
                                 <p>Собрали «Карту развития», где можно подобрать решение под свои текущие задачи и изучить области, на которые стоит обратить внимание в будущем, заложить их изучение в свой индивидуальный план развития.</p>
-                                <a className={s.aboutWorkProcessMore__contentButton} href="">Карта развития</a>
+                                <a className={s.aboutWorkProcessMore__contentButton} href="/docs/roadmap">Карта развития</a>
                             </div>
 
                             <picture>
-                                <img src={ONBOARDING_POSTER_URL} alt="" />
+                                <img src={ONBOARDING_POSTER_URL} alt="" className={s.aboutWorkProcessMore__img} />
                             </picture>
                         </div>
                     </div>
@@ -242,11 +242,11 @@ export default function Home() {
                                 <p className={s.aboutWorkProcessMore__contentSubTitle}>Продвинутым</p>
                                 <h2 className={s.aboutWorkProcessMore__contentTitle}>Почитать, посмотреть, послушать</h2>
                                 <p>Видео, книги, статьи и подкасты – все эти материалы помогут вам лучше понять что требуется от Деливери менеджера, как другие коллеги подходят к решению своих задач, где черпать вдохновение и энергию для проведения новых изменений.</p>
-                                <a className={s.aboutWorkProcessMore__contentButton} href="">Полезные материалы</a>
+                                <a className={s.aboutWorkProcessMore__contentButton} href="/docs/profession/good-to-know ">Полезные материалы</a>
                             </div>
 
                             <picture>
-                                <img src={READING_POSTER_URL} alt="" />
+                                <img src={READING_POSTER_URL} alt="" className={s.aboutWorkProcessMore__img} />
                             </picture>
                         </div>
                     </div>

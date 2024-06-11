@@ -7,11 +7,11 @@ module.exports = {
   title: 'Деливери менеджер',
   tagline: 'Кто это, задачи, обязанности, как им стать, карта развития',
   url: 'https://github.com',
-  baseUrl: '/redesign/',
+  baseUrl: '/',
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'Delivery-Manager',
+  organizationName: 'MRCUCUMBER1234',
   projectName: 'knowledgebase',
   trailingSlash: false,
   markdown: {

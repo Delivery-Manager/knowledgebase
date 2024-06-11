@@ -62,10 +62,13 @@
 }
 
 .beginSection__descriptionContent {
-  padding-top: 2rem;
   flex-grow: 1;
   color: white;
   font-size: 1.2rem;
+
+  @media screen and (min-width: 599px) {
+    padding-top: 2rem;
+  }
 }
 
 .beginSection__descriptionActionButton {
@@ -170,10 +173,14 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: min-content;
-  gap: 1rem;
+  gap: 2rem;
   padding-block: 1rem;
   margin-top: 120px;
   margin-bottom: 80px;
+
+  @media screen and (min-width: 599px) {
+    gap: 1rem;
+  }
 }
 
 .aboutWorkProcessCard {
@@ -185,6 +192,7 @@
 .aboutWorkProcessCard__title {
   font-size: 1.5rem;
   font-weight: bold;
+  margin-bottom: 8px;
 }
 
 .aboutWorkProcessCard__description {
@@ -199,7 +207,7 @@
 }
 
 .aboutWorkProcessCardSpecificWrapper {
-  border-radius: 2rem;
+  border-radius: 3rem;
   overflow: hidden;
 }
 
@@ -362,5 +370,18 @@
 
   .aboutDeliveryManagers {
     flex-direction: row;
+  }
+}
+
+.aboutWorkProcessMore__img {
+  border-radius: 3rem;
+  max-width: 616px;
+  max-height: 320px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  @media screen and (min-width: 599px) {
+    max-height: 640px;
+    border-radius: 5rem;
   }
 }
