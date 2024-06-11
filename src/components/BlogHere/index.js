@@ -12,7 +12,7 @@ import s from './styles.module.css'
 export default function BlogHere() {
   return (
     <section>
-      <div className={s.container}>
+      <div className={s.picsContainer}>
         <div>
         <div className={s.pics}>
           <picture>
