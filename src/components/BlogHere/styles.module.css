@@ -58,6 +58,11 @@
     height: 0;
 }
 
+.pics__container {
+    background-color: #FFD31B;
+    overflow-y: clip;
+}
+
 @keyframes slidein {
     0% {
         margin-left:  var(--start);
