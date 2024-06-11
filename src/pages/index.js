@@ -195,7 +195,7 @@ export default function Home() {
                             </div>
 
                             <div className={clsx(s.aboutWorkProcessCardSpecificWrapper, s.professionDescription)}>
-                                <a href="/docs/profession/about" className={s.aboutWorkProcessCardSpecificLink}>
+                                <Link to="/docs/profession/about" className={s.aboutWorkProcessCardSpecificLink}>
                                     <header className={s.aboutWorkProcessCardSpecific}>
                                         <BlinkingSwitchboard />
                                     </header>
@@ -207,7 +207,7 @@ export default function Home() {
                                           <AboutProcessArrow2 className={s.aboutWorkProcessCardSpecific__icon} /> :
                                           <AboutProcessArrow className={s.aboutWorkProcessCardSpecific__icon} />}
                                     </div>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -223,7 +223,7 @@ export default function Home() {
                                 <h2 className={s.aboutWorkProcessMore__contentTitle}>Онбординг и развитие в профессии</h2>
                                 <p>Какими навыками и инструментарием должен владеть Деливери менеджер?</p>
                                 <p>Собрали «Карту развития», где можно подобрать решение под свои текущие задачи и изучить области, на которые стоит обратить внимание в будущем, заложить их изучение в свой индивидуальный план развития.</p>
-                                <a className={s.aboutWorkProcessMore__contentButton} href="/docs/roadmap">Карта развития</a>
+                                <Link className={s.aboutWorkProcessMore__contentButton} to="/docs/roadmap">Карта развития</Link>
                             </div>
 
                             <picture>
@@ -242,7 +242,7 @@ export default function Home() {
                                 <p className={s.aboutWorkProcessMore__contentSubTitle}>Продвинутым</p>
                                 <h2 className={s.aboutWorkProcessMore__contentTitle}>Почитать, посмотреть, послушать</h2>
                                 <p>Видео, книги, статьи и подкасты – все эти материалы помогут вам лучше понять что требуется от Деливери менеджера, как другие коллеги подходят к решению своих задач, где черпать вдохновение и энергию для проведения новых изменений.</p>
-                                <a className={s.aboutWorkProcessMore__contentButton} href="/docs/profession/good-to-know ">Полезные материалы</a>
+                                <Link className={s.aboutWorkProcessMore__contentButton} to="/docs/profession/good-to-know ">Полезные материалы</Link>
                             </div>
 
                             <picture>
