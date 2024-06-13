@@ -6,12 +6,12 @@ const katex = require('rehype-katex');
 module.exports = {
   title: 'Деливери менеджер',
   tagline: 'Кто это, задачи, обязанности, как им стать, карта развития',
-  url: 'https://github.com',
-  baseUrl: '/knowledgebase',
+  url: 'https://deliverymanager.ru',
+  baseUrl: '/',
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'MRCUCUMBER1234',
+  organizationName: 'Delivery-Manager',
   projectName: 'knowledgebase',
   trailingSlash: false,
   markdown: {
@@ -29,10 +29,6 @@ module.exports = {
     ],
   ],
   themeConfig: {
-    metadata: [
-      // TODO: потом убрать
-      { name: 'robots', content: 'noindex'},
-    ],
     mermaid: {
       theme: { light: 'base', dark: 'dark' },
       options: {
