@@ -79,7 +79,7 @@ module.exports = {
     },
     footer: {
       style: 'light',
-      copyright: `© 2006-${new Date().getFullYear()} АО «Тинькофф Банк»`,
+      copyright: `© 2022-${new Date().getFullYear()} Delivery Manager`,
       links: [
         {
           title: "О профессии",

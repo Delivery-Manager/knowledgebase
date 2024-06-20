@@ -40,18 +40,18 @@ function Footer() {
       </div>
     </div>
 
-    <div className={s.footer__copyrights}>
-      <div>
-        {copyright}
-      </div>
-      <div>
-        <ul className={s.footer__copyrightsList}>
-          <li><Link className="footer__link-item" to={"/"}>Политика приватности</Link></li>
-          <li><Link className="footer__link-item" to={"/"}>Условия использования</Link></li>
-          <li><Link className="footer__link-item" to={"/"}>Cookies</Link></li>
-        </ul>
-      </div>
-    </div>
+    {/*<div className={s.footer__copyrights}>*/}
+    {/*  <div>*/}
+    {/*    {copyright}*/}
+    {/*  </div>*/}
+    {/*  <div>*/}
+    {/*    <ul className={s.footer__copyrightsList}>*/}
+    {/*      <li><Link className="footer__link-item" to={"/"}>Политика приватности</Link></li>*/}
+    {/*      <li><Link className="footer__link-item" to={"/"}>Условия использования</Link></li>*/}
+    {/*      <li><Link className="footer__link-item" to={"/"}>Cookies</Link></li>*/}
+    {/*    </ul>*/}
+    {/*  </div>*/}
+    {/*</div>*/}
   </footer>
   /*return (
     <FooterLayout
