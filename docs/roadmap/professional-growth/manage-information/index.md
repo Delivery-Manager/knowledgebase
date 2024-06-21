@@ -1,14 +1,12 @@
 # Работа с информацией
 
-```mermaid
-graph LR
-%%{ init: { 'flowchart': { 'nodeSpacing': 10, 'rankSpacing': 200 }}}%%
-    A[Работа с информацией] --- B1(Создание собственной базы знаний) & B2(Команды) & B3(Племена/социальные группы) & B4(Комьюнити)
+## Из чего состоит
+
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList className="DocCardList--no-description" />
 ```
-
-## О чём это направление
-
-## Почему важно работать с этим направлением
 
 ## Дополнительные материалы
 * [Книги, видео, подкасты](/docs/profession/good-to-know)
