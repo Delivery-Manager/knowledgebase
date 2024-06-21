@@ -80,6 +80,75 @@ module.exports = {
     footer: {
       style: 'light',
       copyright: `© 2022-${new Date().getFullYear()} Delivery Manager`,
+      links: [
+        {
+          title: "О профессии",
+          items: [
+            {
+              label: "Описание профессии",
+              to: "/"
+            },
+            {
+              label: "Анти-паттерны",
+              to: "/"
+            },
+            {
+              label: "Полезные материалы",
+              to: "/"
+            }
+          ]
+        },
+        {
+          title: "Компетенции",
+          items: [
+            {
+              label: "Грейды",
+              to: "/"
+            }
+          ]
+        },
+        {
+          title: "Карта развития",
+          items: [
+            {
+              label: "Управление изменениями",
+              to: "/"
+            },
+            {
+              label: "Управление людьми",
+              to: "/"
+            },
+            {
+              label: "Управление работой",
+              to: "/"
+            },
+          ]
+        },
+        {
+          title: "Профессиональное развитие",
+          items: [
+            {
+              label: "Управление изменениями",
+              to: "/"
+            },
+            {
+              label: "Управление людьми",
+              to: "/"
+            },
+            {
+              label: "Управление работой",
+              to: "/"
+            },
+          ]
+        }
+      ],
+      logo: {
+        src: "img/logo.svg",
+        href: "/",
+        alt: "",
+        width: 160,
+        height: 51,
+      }
     },
   },
   presets: [
