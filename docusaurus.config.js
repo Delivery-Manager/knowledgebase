@@ -163,6 +163,9 @@ module.exports = {
           rehypePlugins: [katex],
           showLastUpdateAuthor: true,
         },
+        blog: {
+          blogSidebarCount: 0,
+        },
         gtag: {
           trackingID: 'G-CNJ52NL21B',
           anonymizeIP: true,
