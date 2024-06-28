@@ -23,3 +23,373 @@
   align-items: center;
   justify-content: center;
 }
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-inline: 1rem;
+}
+
+.beginSectionWrapper {
+  background-color: #512DE2;
+  padding: 2rem 1rem;
+}
+
+.beginSection {
+  display: grid;
+  grid-template-rows: 300px 1fr;
+  border-radius: 3rem;
+  overflow: hidden;
+  border: 0.1rem #FFD31B solid;
+}
+
+.beginSection__poster {
+
+}
+
+.beginSection__posterImage {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.beginSection__description {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.beginSection__descriptionContent {
+  flex-grow: 1;
+  color: white;
+  font-size: 1.2rem;
+  padding-top: 2rem;
+}
+
+@media screen and (max-width: 599px) {
+  .beginSection__descriptionContent {
+    padding-top: 0;
+  }
+}
+
+.beginSection__descriptionActionButton {
+  padding: 1rem 2rem;
+  background-color: #FFD31B;
+  border-radius: 3rem;
+  color: black;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.beginSection__descriptionActionButton:hover {
+  text-decoration: none;
+  color: black;
+  background-color: #f6e4aa;
+}
+
+.aboutDeliveryManagers__wrapper {
+  padding-top: 80px;
+  padding-bottom: 210px;
+  background-color: #FFD31B;
+  /*padding-block-end: 15rem;*/
+  position: relative;
+  overflow-x: hidden;
+}
+
+.aboutDeliveryManagers {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+
+.aboutDeliveryManagers > div, h2 {
+  flex: 1;
+}
+
+.aboutDeliveryManagers__title {
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+
+.aboutDeliveryManagers__article {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+
+.aboutDeliveryManagersMarqueeWrapper {
+  overflow-x: clip;
+  height: fit-content;
+  /*position: absolute;*/
+  /*bottom: 0;*/
+  /*margin-bottom: -5rem;*/
+  margin-bottom: 5rem;
+  margin-top: -5rem;
+}
+
+.aboutDeliveryManagersMarquee {
+  --duration: 60s;
+  --gap: 1rem;
+
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: var(--gap);
+  padding-block: 0.5rem;
+}
+
+.aboutDeliveryManagersMarqueeFirst {
+  background-color: black;
+}
+
+.aboutDeliveryManagersMarqueeSecond {
+  background-color: #5E73E1;
+}
+
+.aboutDeliveryManagersMarqueeReverse .aboutDeliveryManagersMarqueeItem {
+  animation-direction: reverse;
+  animation-delay: calc(var(--duration) / -2);
+}
+
+.aboutDeliveryManagersMarqueeItem {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: var(--gap);
+  min-width: 100vw;
+  animation: scroll var(--duration) linear infinite;
+  height: 50px;
+}
+
+.onboarding {
+  display: flex;
+}
+
+.aboutWorkProcess {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: min-content;
+  gap: 1rem;
+  padding-block: 1rem;
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 599px) {
+  .aboutWorkProcess {
+    gap: 2rem;
+  }
+}
+
+.aboutWorkProcessCard {
+  border: 1px solid black;
+  border-radius: 3rem;
+  padding: 2rem;
+}
+
+.aboutWorkProcessCard__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.aboutWorkProcessCard__description {
+  font-size: 1.1rem;
+  line-height: 2;
+  margin: 0;
+}
+
+.aboutWorkProcessCardSpecific {
+  background: hsl(0 0% 11.0%);
+  flex-grow: 1;
+}
+
+.aboutWorkProcessCardSpecificWrapper {
+  border-radius: 3rem;
+  overflow: hidden;
+}
+
+.aboutWorkProcessCardSpecificLink {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.aboutWorkProcessCardSpecificLink:hover {
+  text-decoration: none;
+}
+
+.aboutWorkProcessCardSpecific__title {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.aboutWorkProcessCardSpecific__icon {
+  width: 108px;
+}
+
+.aboutWorkProcessCardSpecificContent {
+  background: black;
+  display: flex;
+  padding: 1rem;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aboutWorkProcessCardSpecificContentIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.aboutWorkProcessMoreSection {
+  border-top: 1px solid black;
+  padding-block: 1rem;
+}
+
+.aboutWorkProcessMore {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 112px;
+}
+
+.aboutWorkProcessMore__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+
+.aboutWorkProcessMore__contentTitle {
+  font-size: 3rem;
+  font-weight: bold;
+  flex: none;
+}
+
+.aboutWorkProcessMore__contentSubTitle {
+  font-size: 0.9rem;
+  flex: none;
+}
+
+.aboutWorkProcessMore__contentButton {
+  width: fit-content;
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 3rem;
+  border: 1px solid #512DE2;
+}
+
+.aboutWorkProcessMore__contentButton:hover {
+  text-decoration: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aboutDeliveryManagersMarqueeItem {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@media screen and (min-width: 599px) {
+  .beginSectionWrapper {
+    padding: 5rem 0;
+  }
+
+  .beginSection {
+    grid-template-rows: initial;
+    grid-template-columns: 1fr 1fr;
+    border-width: 0.2rem;
+    border-radius: 5rem;
+  }
+
+  .beginSection__description {
+    padding: 5rem;
+  }
+
+  .beginSection__descriptionActionButton {
+    width: fit-content;
+  }
+
+  .aboutDeliveryManagersMarquee {
+    padding-block: 2rem;
+  }
+
+  .aboutDeliveryManagersMarqueeItem {
+    max-height: 70px;
+  }
+
+  .aboutWorkProcess {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .aboutWorkProcessCardSpecific__icon {
+    width: 50px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .wrapper {
+    padding-inline: 0;
+  }
+
+  .complexTask {
+    grid-column: 1/3;
+  }
+
+  .professionDescription {
+    grid-column: 3/-1;
+  }
+
+  .aboutWorkProcess {
+    grid-template-columns: repeat(4, 1fr);
+    /*grid-template-rows: 1fr 1fr;*/
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .aboutWorkProcessMore {
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .aboutDeliveryManagers {
+    flex-direction: row;
+  }
+}
+
+.aboutWorkProcessMore__img {
+  max-width: 616px;
+  max-height: 640px;
+  border-radius: 5rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 599px) {
+  .aboutWorkProcessMore__img {
+    max-height: 320px;
+    border-radius: 3rem;
+  }
+}
