@@ -80,7 +80,7 @@ export default function Home() {
                         <div className={s.beginSection}>
                             <picture className={s.beginSection__poster}>
                                 <source srcSet={POSTER1_URL} media="(min-width: 760px)" />
-                                <img className={s.beginSection__posterImage} src={POSTER1_2_URL} alt="" />
+                                <img className={s.beginSection__posterImage} src={POSTER1_URL} alt="" />
                             </picture>
 
                             <div className={s.beginSection__description}>
