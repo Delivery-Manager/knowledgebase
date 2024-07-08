@@ -9,13 +9,19 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
         <item>
-            <title><![CDATA[FeatureBan. Как провести игру, если вы никогда этого не делали]]></title>
+            <title><![CDATA[Опыт FeatureBan. Как я впервые его провёл и всё получилось]]></title>
             <link>https://deliverymanager.ru/blog/2024/06/27/featureban-how-to-play-the-game</link>
             <guid>https://deliverymanager.ru/blog/2024/06/27/featureban-how-to-play-the-game</guid>
             <pubDate>Thu, 27 Jun 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Всем привет! Меня зовут Андрей Маркин, и это мой первый опыт написания статьи. Подложив соломку, думаю, можно перейти к части, где я пытаюсь объяснить, на фига нам еще одна статья про FeatureBan, которому уже 10 лет. Неужели кто-то еще чего-то о нем не знает?]]></description>
             <content:encoded><![CDATA[<p>Всем привет! Меня зовут Андрей Маркин, и это мой первый опыт написания статьи. Подложив соломку, думаю, можно перейти к части, где я пытаюсь объяснить, на фига нам еще одна статья про FeatureBan, которому уже 10 лет. Неужели кто-то еще чего-то о нем не знает?
 Об игре мы знаем всё что надо, материалов для этого полно (они будут ниже). Однако я хочу поделиться с вами опытом подготовки к игре с точки зрения совсем юного менеджера, который слишком сильно хочет сделать работу хорошо.</p>
+<p>По итогу прочтения статьи вы:</p>
+<ol>
+<li>Узнаете как подготовиться к проведению игры.</li>
+<li>Получите готовые материалы для фасилитации игры, а так же лекционный материал.</li>
+<li>Сможете сами вдумчиво и качественно провести игру в своих командах.</li>
+</ol>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="предисловие">Предисловие<a class="hash-link" aria-label="Прямая ссылка на Предисловие" title="Прямая ссылка на Предисловие" href="https://deliverymanager.ru/blog/2024/06/27/featureban-how-to-play-the-game#%D0%BF%D1%80%D0%B5%D0%B4%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D0%B5">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="история-создания">История создания<a class="hash-link" aria-label="Прямая ссылка на История создания" title="Прямая ссылка на История создания" href="https://deliverymanager.ru/blog/2024/06/27/featureban-how-to-play-the-game#%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F">​</a></h3>
 <p>Волею судеб недавно я стал выполнять роль <strong>Деливери менеджера</strong>.</p>
@@ -60,7 +66,7 @@
 </blockquote>
 <p>В итоге родился большой гайд фасилитатора — с пошаговой инструкцией, вариантами кастомизации и лекционными материалами.
 Кажется, такого материала на просторах интернета еще нет, а значит, хочется верить, что он будет полезен.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="кому-будет-полезно">Кому будет полезно<a class="hash-link" aria-label="Прямая ссылка на Кому �будет полезно" title="Прямая ссылка на Кому будет полезно" href="https://deliverymanager.ru/blog/2024/06/27/featureban-how-to-play-the-game#%D0%BA%D0%BE%D0%BC%D1%83-%D0%B1%D1%83%D0%B4%D0%B5%D1%82-%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D0%BE">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="кому-будет-полезно">Кому будет полезно<a class="hash-link" aria-label="Прямая ссылка на Кому будет полезно" title="Прямая ссылка на Кому будет полезно" href="https://deliverymanager.ru/blog/2024/06/27/featureban-how-to-play-the-game#%D0%BA%D0%BE%D0%BC%D1%83-%D0%B1%D1%83%D0%B4%D0%B5%D1%82-%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D0%BE">​</a></h3>
 <p>Всем тем, кто осознанно и вдумчиво хочет подготовить почву для старта внедрения практик канбан-метода (в частности, практики «перестаньте начинать, начните заканчивать»).</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="пара-предостережений">Пара предостережений<a class="hash-link" aria-label="Прямая ссылка на Пара предостережений" title="Прямая ссылка на Пара предостережений" href="https://deliverymanager.ru/blog/2024/06/27/featureban-how-to-play-the-game#%D0%BF%D0%B0%D1%80%D0%B0-%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B5%D1%80%D0%B5%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9">​</a></h3>
 <p>Сразу хочу заметить, что игру рекомендую проводить тем, кто проходил обучение KSD или имеет опыт применения канбан-метода. Важно грамотно провести обсуждение, уметь ответить на вопросы и развеять типичные сомнения. Если нет возможности пройти KSD, а игру надо провести, то заранее вдумчиво почитайте <a href="https://kanbanguide.ru/wp-content/uploads/2018/02/Essential-Kanban-Condensed-v1.0.01.02-_rus.pdf" target="_blank" rel="noopener noreferrer">руководство по канбану</a>.</p>
@@ -110,7 +116,25 @@
 <li>Участники команды стали общаться друг с другом и решать вопросы совместно</li>
 <li>Теперь руководители обращают внимание на метрики и принимают решения на их основе</li>
 <li>Команды ограничили объём незавершённой работы и обращают внимание на простои</li>
-</ol>]]></content:encoded>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="заключение">Заключение<a class="hash-link" aria-label="Прямая ссылка на Заключение" title="Прямая ссылка на Заключение" href="https://deliverymanager.ru/blog/2024/06/27/featureban-how-to-play-the-game#%D0%B7%D0%B0%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5">​</a></h2>
+<p>Если свести всё описанное выше в короткий список рекомендаций, то получится следующее:</p>
+<ol>
+<li>Посмотрите записи того как ведут игру другие, насмотренность крайне важна.</li>
+<li>Проведите игру сами для себя или для друзей хотя бы 1-2 раза. Так вы поймете механику – это добавит уверенности</li>
+<li>Убедитесь что понимаете что такое канбан-метод, какие практики рассматривает игра и как о них рассказывать</li>
+<li>Вооружитесь материалами для фасилитатора и организуйте первую игру с командой.</li>
+<li>Избегайте карго-культа, адаптируйте инструменты под нужды команды, а не команду под инструменты.</li>
+<li>После игры обязательно соберите обратную связь с игроков. Проанализируйте и подумайте за счёт чего можно улучшить следующую игру. Все получится!</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="благодарности">Благодарности<a class="hash-link" aria-label="Прямая ссылка на Благодарности" title="Прямая ссылка на Благодарности" href="https://deliverymanager.ru/blog/2024/06/27/featureban-how-to-play-the-game#%D0%B1%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D1%81%D1%82%D0%B8">​</a></h3>
+<p>Хочу сказать спасибо всем, кто помогал сделать этот материал и мотивировал на написание статьи:</p>
+<ul>
+<li><a href="https://habr.com/ru/users/StepEv/" target="_blank" rel="noopener noreferrer">Жене Степченко</a>.</li>
+<li><a href="https://t.me/mmartynov" target="_blank" rel="noopener noreferrer">Мише Мартынову</a>.</li>
+<li><a href="https://t.me/Phoenikss" target="_blank" rel="noopener noreferrer">Диме Кирьянову</a>.</li>
+<li><a href="https://t.me/RKARCHAN" target="_blank" rel="noopener noreferrer">Роме Карчан</a>.</li>
+</ul>]]></content:encoded>
             <category>article</category>
         </item>
         <item>
