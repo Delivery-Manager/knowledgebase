@@ -1,10 +1,10 @@
 # Управление продуктом
 
 ## Из чего состоит
-```mermaid
-graph LR
-%%{ init: { 'flowchart': { 'nodeSpacing': 10, 'rankSpacing': 200 }}}%%
-    A[Управление продуктом] --- B1(Знание бизнес-домена) & B2(Проектирование) & B3(Инструменты) & B4(Экономика/бюджетирование)
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList className="DocCardList--no-description" />
 ```
 
 ## Дополнительные материалы
