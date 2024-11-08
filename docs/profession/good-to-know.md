@@ -29,7 +29,7 @@ import TabItem from '@theme/TabItem';
 Набор [Change Management Game](https://management30.com/practice/change-management-game/) из Management 3.0 Евгений Адамов и Евгений Степченко перевели карты на русский язык и дополнили, на основе своего опыта, практиками Prosci:registered: и Six Source of Influence.
 Набор можно использовать как фасилитационный инструмент при планировании изменений, ретроспективе.
 
-[Подробнее об инструменте и примерах использования можно прочитать в статье](https://t.me/channel_TAC/193).
+Подробнее об инструменте и примерах использования можно прочитать [в статье](https://t.me/channel_TAC/193).
 
 ---
 
